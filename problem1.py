@@ -69,10 +69,13 @@ def Majority(A):
 
 
 def main():
-	A = [0, 0, 0, 0, 0, 1, 1, 1, 1]
+	A = [5, 6, 3, 5, 5, 5, 1, 5, 5, 6, 8, 5]
 	counts = {}
 	majorityVal = Majority(A)
-	print("Most common element", majorityVal)
+	if(len(majorityVal) == 1)
+		print("Majority Element: ", majorityVal)
+	else
+		print("No majority element")
 
 if __name__ == '__main__':
 	main()
